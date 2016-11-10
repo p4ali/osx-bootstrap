@@ -10,6 +10,11 @@ Mac OS X > 10.11
 
 ## Install
 
+Install xcode first:
+```bash
+$ xcode-select --install
+```
+
 Run the setup script which will clone repository to `~/.osx-bootstrap` directory
 and run `~/.osx-bootstrap/modules/*` scripts.
 
@@ -50,6 +55,10 @@ git clone -b master https://github.com/fs/osx-bootstrap.git
 * Software installed with Brew Cask in to `/Applications` : iTerm2, HipChat, Skype, Google Chrome,
   Firefox, Google Drive, f-lux, Sublime Text 3, Java, Dropbox, The Unarchiver, Dash
 * Set OS X defaults (faster animation, etc)
+
+### Reference
+* [Install macosx on Virtual box on host macosx](http://www.wikigain.com/install-mac-os-x-el-capitan-virtualbox/)
+* [osx bootstrap](https://github.com/fs/osx-bootstrap)
 
 ## Credits
 

@@ -45,3 +45,7 @@ brew "nvm"
 brew "rbenv"
 brew "ruby-build"
 brew "rbenv-default-gems"
+
+# dotfile management
+tap "thoughtbot/formulae"
+brew "rcm"
