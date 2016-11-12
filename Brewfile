@@ -37,6 +37,7 @@ cask "dropbox"
 cask "sublime-text"
 cask "spectacle"
 cask "dash"
+cask "shiftit"
 
 # Node version manager
 brew "nvm"
